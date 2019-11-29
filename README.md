@@ -1,6 +1,9 @@
 # Introduction To Generative Adversarial Network 2019
  A brief Introduction to Generative Adversarial Network
 
+Here's the notebook link in Google Colab if you don't want to run it locally
+- [DC GAN MNIST](https://colab.research.google.com/drive/18qJ_yJSc1jPdqmtN5MfbtN49wu2Dg0PZ)
+- [Quiz Guide](https://colab.research.google.com/drive/16gJw-VDbFi0Tr9e5FD7zrDwSe3hZpHPT)
 
 ### External Sources : 
 - [Roadmap of Gan](https://blog.floydhub.com/gans-story-so-far)
