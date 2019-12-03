@@ -21,13 +21,13 @@ As discovered by Ian Goodfellow[^ian_GAN] , GAN is consisted of **two** neural n
 ## Motivational Examples
 Before we go into implementation of GAN, let's see how GAN(s) changes overtime. 
 
-![](/res/gan-tweet.png)
+![](/res/gan-tweet.PNG)
 
 Since it's first appearance in 2014, and with the rising of Computer Vision - CNN, GAN grew rapidly. It's now able to generate a stunning images, that even our eyes cannot distinguish whether it's real or fake! Current most state-of-the-art GAN are StyleGAN, and you can check it's result in [thispersondoesntexist.com](thispersondoesntexist.com). Let's see several types of GANs
 
 ### CGAN (Conditional GAN, 2014)
 ___
-![](/res/cgan.png)
+![](/res/cgan.PNG)
 ___
 GAN was originally created to be trainable with only **ONE** class. If you train your GAN with dog images, it can generate dog images. If you train your GAN with cat images, it can generate cat images. But, what if your GAN was trained into both cat and dog images ? It will generate a blurry animal. To overcome this, Mirza[^CGAN] created CGAN that can diffrentiate multiple output. 
 
