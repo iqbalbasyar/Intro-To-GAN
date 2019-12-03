@@ -14,8 +14,7 @@ In 2018 a  paint of Edmond de Belamy made by machine learning (GAN) was sold for
 As discovered by Ian Goodfellow[^ian_GAN] , GAN is consisted of **two** neural networks named Generator and Discriminator. The Generator was built to create fake images, while the discriminator was built to identify those fake images as fake. Essentially, it's not always have to be fake image. The GAN architecture can build any other type of data like sounds or videos. 
 
 ## Course Objective : 
-- Implement (not optimize) DC-GAN
-- Operate Latent Vector
+- Implement (not optimize) DC-GAN uising Keras
 
 <!-- Motivational Examples -->
 ## Motivational Examples
@@ -41,7 +40,7 @@ ___
 
 In 2018, Zu[^CycleGAN] create a CycleGAN, A GAN that **Doesn't Generate Fake Images**. Instead, it transfer styles between images. 
 
-Have you ever imagin a horse with zebra lines ? 
+Have you ever imagine a horse with zebra lines ? 
 ![](/res/zebra-horse.gif)
 
 Or, playing Fortnite with PUBG style?
