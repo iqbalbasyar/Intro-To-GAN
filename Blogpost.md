@@ -399,6 +399,7 @@ Congratulations! you now can generate realistic handwritten images using Generat
 ## Latent Vector Operations
 It was found that the z vector of specific class tends to have a similarity. It's later said that for a specific class, there should be a vector z that represent it. Now it's called Latent Vector. So, in order to create image of number "1", you can easily do an average of z vector that generates "1", use it as input of Generator, and Voila ! You will create a number "1" (conceptually). 
 
+## Refereces:
 [^ian_GAN]: [Goodfellow, Ian J. - Generative Adversarial Nets, 2014](https://arxiv.org/pdf/1406.2661.pdf)
 
 [^CGAN]: [Mirza, M. -  Conditional Generative Adversarial Nets, 2014](https://arxiv.org/abs/1411.1784)
